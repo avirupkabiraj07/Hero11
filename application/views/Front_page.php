@@ -35,12 +35,9 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
                 </ol>
                 <div class="carousel-inner d-flex">
-                    <div class="carousel-item active d-flex justify-content-between align-items-center text-primary flex-wrap flex-row">
-                        <div>
-                            <img class="d-block w-100 img" src="/hero11/static/img1.png" width="50%" height="50%" alt="First slide">
-                        </div>
-                        <div>
-                            <h1>JOIN NOW TO BECOME THE TOP !</h1>
+                    <div class="carousel-item active d-flex justify-content-center align-items-center text-primary flex-wrap flex-row">
+                        <div class="py-5 my-5">
+                            <img class="d-block w-100 img" src="/hero11/static/img1.png"  alt="First slide">
                         </div>
                     </div>
                     <div class="carousel-item">
