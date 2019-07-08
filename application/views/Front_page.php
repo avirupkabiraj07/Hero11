@@ -17,7 +17,7 @@
                     <img src="/hero11/static/logo1.png" class="size">
                 </div>
                 <div class="d-flex flex-row align-items-center justify-content-between d-sm-none d-none d-md-none d-lg-block ">
-                    <a href="" class="btn border-white text-white mr-3">LOGIN</a>
+                    <a href="Login_controller" class="btn border-white text-white mr-3">LOGIN</a>
                     <a href="" class="btn border-white text-white ">Register</a>
                 </div>
             </nav>
@@ -35,16 +35,16 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
                 </ol>
                 <div class="carousel-inner d-flex">
-                    <div class="carousel-item active d-flex justify-content-center align-items-center text-primary flex-wrap flex-row">
+                    <div class="carousel-item active">
                         <div class="py-5 my-5">
                             <img class="d-block w-100 img" src="/hero11/static/img1.png"  alt="First slide">
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/hero11/static/img2.jpg" width="100%" height="100%" alt="Second slide">
+                        <img class="d-block w-100" src="/hero11/static/img2.png" width="100%" height="100%" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/hero11/static/img3.jpg" width="100%" height="100%" alt="Third slide">
+                        <img class="d-block w-100" src="/hero11/static/img3.png" width="100%" height="100%" alt="Third slide">
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="/hero11/static/img4.jpg" width="100%" height="100%" alt="Fourth slide">
