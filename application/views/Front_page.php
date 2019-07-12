@@ -17,47 +17,32 @@
                     <img src="/hero11/static/logo1.png" class="size">
                 </div>
                 <div class="d-flex flex-row align-items-center justify-content-between d-sm-none d-none d-md-none d-lg-block ">
-                    <a href="Login_controller" class="btn border-white text-white mr-3">LOGIN</a>
+                    <a href="/hero11/index.php/Login" class="btn border-white text-white mr-3">LOGIN</a>
                     <a href="" class="btn border-white text-white ">Register</a>
                 </div>
             </nav>
 
         </section>
-        <section class="bgimg w-100 h-100">
-            <div id="carouselExampleIndicators" class="margin carousel slide d-flex" data-ride="carousel" data-interval="2000">
+        <section class="bgimage w-100 h-100" id="">
+            <div id="carouselExampleIndicators" class="margin carousel slide d-flex container" data-ride="carousel" data-interval="2000">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
                 </ol>
                 <div class="carousel-inner d-flex">
                     <div class="carousel-item active">
-                        <div class="py-5 my-5">
-                            <img class="d-block w-100 img" src="/hero11/static/img1.png"  alt="First slide">
-                        </div>
+                        
+                            <img class="d-block w-100 m-4 p-4 align-items-center" src="/hero11/static/img1.png" width="50%" height="100%" alt="First slide">
+                        
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/hero11/static/img2.png" width="100%" height="100%" alt="Second slide">
+                        <img class="d-block w-100 m-4 p-4 align-items-center" src="/hero11/static/img2.png" width="50%" height="100%" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/hero11/static/img3.png" width="100%" height="100%" alt="Third slide">
+                        <img class="d-block w-100 m-4 p-4 align-items-center" src="/hero11/static/img3.png" width="50%" height="100%" alt="Third slide">
                     </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="/hero11/static/img4.jpg" width="100%" height="100%" alt="Fourth slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="/hero11/static/img5.jpg" width="100%" height="100%" alt="Fifth slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="/hero11/static/img6.jpg" width="100%" height="100%" alt="Sixth slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="/hero11/static/img7.jpg"width="100%" height="100%" alt="Seventh slide">
-                    </div>
+                    
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -70,8 +55,8 @@
             </div>
 
         </section>
-        <section>
-            <hr>
+        <hr>
+        <section class="">
             <div class="d-flex flex-column justify-content-center">
                 <div class="d-flex justify-content-center align-items-center p-md-5">
                     <h1 class="text-success">HOW TO PLAY ?</h1>
@@ -127,6 +112,13 @@
                         </div>
                     </div>
                 </div>
+            </section>
+            <section class="container">
+                <div class="bg-dark d-flex justify-content-center">
+                    <div class="flex-column text-white">
+                        <h1><b>HELP</b></h1>
+                </div>
+                
             </section>
             <script src="/hero11/static/Front_page.js"></script>
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -13,12 +13,7 @@ width:50%;
 height: 50%;
 }
 }
-.bgimg{
-    background-image: url("/hero11/static/wp2686825.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-   
-}
+
 
 #overlay{
   position:fixed;
@@ -47,3 +42,20 @@ height: 50%;
   text-align:center;
   color:#fff;
 }
+@media screen and (max-width : 1920px){
+.bgimage{
+    background-image: url("/hero11/static/desktopback.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+}
+@media screen and (max-width : 1200px){
+.bgimage{
+    background-image: url("/hero11/static/mobileback.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+}
+
