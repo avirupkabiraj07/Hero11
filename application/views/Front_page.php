@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="/hero11/static/Front_page.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
-    <body>
+    <body class="">
         <div id="overlay">
             <div id="progstat"></div>
             <div id="progress"></div>
@@ -17,7 +17,7 @@
                     <img src="/hero11/static/logo1.png" class="size">
                 </div>
                 <div class="d-flex flex-row align-items-center justify-content-between d-sm-none d-none d-md-none d-lg-block ">
-                    <a href="/hero11/index.php/Login" class="btn border-white text-white mr-3">LOGIN</a>
+                    <a href="Login" class="btn border-white text-white mr-3">LOGIN</a>
                     <a href="" class="btn border-white text-white ">Register</a>
                 </div>
             </nav>
@@ -55,17 +55,18 @@
             </div>
 
         </section>
-        <hr>
-        <section class="">
+      <hr>
+        <section class="bg-dark">
+        <section class="container bg-light">
             <div class="d-flex flex-column justify-content-center">
-                <div class="d-flex justify-content-center align-items-center p-md-5">
+                <div class="d-flex justify-content-center align-items-center">
                     <h1 class="text-success">HOW TO PLAY ?</h1>
                 </div>
-                <div class="d-flex justify-content-center align-items-center p-md-5">
+                <div class="d-flex justify-content-center align-items-center">
                     <h1 class="text-warning">3  SIMPLE & EASY  STEPS</h1>
                 </div>
                 <div class="d-flex flex-md-wrap p-md-5  flex-row justify-content-around align-items-center">
-                    <div class="d-flex flex-md-wrap p-md-5 m-md-5 flex-column justify-content-center">
+                    <div class="d-flex flex-md-wrap flex-column justify-content-center">
                         <div class="d-flex justify-content-center align-items-center">
                             <img src="/hero11/static/step1.png"  width="200px" height="200px">
                         </div>
@@ -73,7 +74,7 @@
                             <h3>Select a match from all ongoing matches</h3>
                         </div>
                     </div>
-                    <div class="d-flex flex-md-wrap p-md-5 m-md-5 flex-column justify-content-center">
+                    <div class="d-flex flex-md-wrap flex-column justify-content-center">
                         <div class="d-flex justify-content-center align-items-center">
                             <img src="/hero11/static/step2.png"  width="200px" height="200px">
                         </div>
@@ -81,7 +82,7 @@
                             <h3>Make your own team!</h3>
                         </div>
                     </div>
-                    <div class="d-flex flex-md-wrap p-md-5 m-md-5 flex-column justify-content-center">
+                    <div class="d-flex flex-md-wrap flex-column justify-content-center">
                         <div class="d-flex justify-content-center align-items-center">
                             <img src="/hero11/static/step3.png"  width="200px" height="200px">
                         </div>
@@ -93,6 +94,7 @@
             </div>
             <hr>
         </section>
+    </section>
         <section>
 
             <section>
@@ -114,9 +116,26 @@
                 </div>
             </section>
             <section class="container">
-                <div class="bg-dark d-flex justify-content-center">
-                    <div class="flex-column text-white">
-                        <h1><b>HELP</b></h1>
+                <div class="bg-dark d-flex flex-column justify-content-center">
+                    <div class="text-white">
+                        <div class="d-flex justify-content-center py-4">
+                            <h1><b>HELP</b></h1>
+                        </div>
+                        <div class="d-flex justify-content-center py-4">
+                            <h1><i>CONTACT US</i></h1>
+                        </div>
+                        <div class=" d-flex flex-row justify-content-between">
+                            <div class="px-4 mx-4">
+                                <p>Avirup Kabiraj</p>
+                            </div>
+                            <div class="px-4 mx-4">
+                                <p>Avirup Kabiraj</p>
+                            </div>
+                            <div class="px-4 mx-4">
+                                <p>Avirup Kabiraj</p>
+                            </div>
+
+                        </div>
                 </div>
                 
             </section>
