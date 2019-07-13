@@ -49,13 +49,25 @@ height: 50%;
     background-repeat: no-repeat;
    
 }
+  #mobile{
+  display: none;
+  }
+  #laptop{
+  display: block;
 }
-@media screen and (max-width : 1200px){
+}
+@media screen and (max-width : 1500px){
 .bgimage{
     background-image: url("/hero11/static/mobileback.jpg");
     background-size: cover;
     background-repeat: no-repeat;
    
 }
+#laptop{
+  display: none;
+  }
+ #mobile{
+  display: block;
+  }
 }
 
